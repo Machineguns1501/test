@@ -1,0 +1,391 @@
+math * {text-indent: 0px;} 
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13pt;
+	line-height: 145%;
+	margin: 0;
+	padding: 0;
+	padding-left: 65px;
+	padding-right: 65px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url("bckg.png");
+    background-repeat: repeat-x;
+	background-color: #ffffff;
+}
+div.main{ padding: 25px; }
+
+p { 	margin-bottom: 20px; }
+
+pre{
+	font-size: 12pt;
+	line-height: 145%;
+	padding-left: 40px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+p.img { 	text-align:center; }
+p.img  img{ 	max-width: 800px; 	
+}
+.imgcaption{
+	text-align: center;
+	font-size: 13px;
+	margin-bottom: 10px;
+	color: #4e4e4e;
+}
+
+h1::first-line{
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 27pt;
+	line-height: 120%;
+	font-weight: bold;
+}
+h1{
+	margin-top: 82px;
+	margin-bottom: 75px;
+	font-size: 20pt;
+	line-height: 120%;
+	font-weight: normal;
+}
+
+h2, h3 {
+	
+	font-size: 18pt;
+	text-indent: 0px;
+	border-bottom: 1px solid #cfd7e2;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	line-height: 136%;
+	
+}
+h4, div.nonum_head {
+	font-size: 140%;
+	color: #474747;
+	text-indent: 0px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-weight: normal;
+	line-height: 140%;
+	
+}
+
+p.tablecaption {
+	font-family: Arial;
+	font-size: 12px;
+	text-indent: 0px;
+	text-align: right;
+	font-style: italic;
+	padding-right: 15%;
+}
+.program {
+	font-family: Courier New;
+	font-size: 12pt;
+	color: black;
+}
+td p{
+	text-indent: 0px;
+}
+table.mathcenter{
+	border-collapse: none;
+	text-align:center;
+	width:100%;
+	border: 2px solid white;
+}
+td.mathcenter1 {
+	text-align:left;
+	width:10%;
+	border: 2px solid white;
+}
+td.mathcenter2 {
+	text-align:center;
+	width:80%;
+	border: 2px solid white;
+}
+td.mathcenter3 {
+	text-align:right;
+	width:10%;
+}
+td.imgcentr{
+	text-align:center;
+}
+table.text{
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 70%;
+}
+table.text td, table.text th{
+	padding: 6px;
+	border: 1px solid #cfd7e2;
+	font-size: 90%;
+}
+table.text th{
+	background: linear-gradient(top, #ecf0f9, #fbfcfe);
+	background: -moz-linear-gradient(top, #fbfcfe, #ecf0f9);
+	color: #3c3f5f;
+	font-weight: normal;
+	line-height: 115%;
+	text-shadow: 0 1px #ffffff;
+}
+div.cit{
+	width: 100%;
+	overflow: hidden;
+}
+table.text th{
+/*	font-weight: bold;*/
+}
+div.cit div{
+	width: 30%;
+	text-indent: 40px;
+	text-align: justify;
+	float: right;
+	font-size: 13px;
+}
+div.cit p{
+	text-align: right !important;
+}
+div.title p{
+	text-align: center;
+	font-size: 17px;
+}
+table.authors{width: 80%; margin: 0 auto;}
+table.authors td{
+	font-size: 13px;
+	padding-right: 8px;
+}
+table.authors td b{ font-size: 14px;}
+
+/* ----------------- Boxes -------------------- */
+div.definition , div.attention , div.question , div.one_question , div.literature , div.task, div.notice, div.internet, div.advice, div.theorem, div.internet, div.citation, div.lemma, div.axiom{
+	
+	background-repeat: no-repeat;
+	background-position: 0px 19px;;
+	background-size: 100px !important;
+	padding-left: 130px;
+	/*padding-right: 135px;*/
+	line-height: 150%;
+	min-height: 87px;
+/*	width: 50%;
+	margin: 0 auto;
+	color: #414141;
+	*/
+	
+}
+div.definition div, div.attention div, div.one_question  div, div.question div, div.literature div, div.task div, div.notice div, div.internet div, div.advice div, div.theorem div, div.internet div, div.citation div, div.lemma div, div.axiom div{
+	padding-top: 23px;
+	padding-bottom: 23px;
+	font-size: 115%;
+	vertical-align: middle;
+}
+div.MathJax_MathML{
+	border: none !important;
+	font-size: 110% !important;
+}
+span.MathJax_MathML{
+	font-size: 110% !important;
+}
+
+div.definition{
+	background-image: url(icons/icon5.png);
+	font-style: italic;
+	font-family: times new roman;
+	font-size: 115%;
+}
+
+div.definition div b{
+	font-weight: bold;
+}
+div.citation{
+	background-image: url(icons/icon8.png);
+	font-style: italic;
+	font-family: times new roman;
+	font-size: 115%;
+}
+/* Один вопрос */
+div.one_question{
+	background-image: url(icons/icon7.png);
+	font-style: italic;
+}
+div.lemma{
+	background-image: url(icons/icon2.png);
+}
+div.axiom{
+	background-image: url(icons/icon3.png);
+}
+div.internet{
+	background-image: url(icons/icon16.png);
+}
+div.theorem{
+	background-image: url(icons/icon1.png);
+}
+div.advice{
+	background-image: url(icons/icon10.png);
+}
+div.notice{
+	background-image: url(icons/icon15.png);
+}
+div.task{
+	background-image: url(icons/icon14.png);
+}
+div.attention{
+	background-image: url(icons/icon6.png);
+	background-size: auto 67px !important;
+}
+div.question{
+	margin-top: 60px;
+	background-image: url(icons/icon7.png);
+	font-size: 125%;
+}
+div.literature{
+	background-image: url(icons/icon17.png);
+	font-size: 125%;
+}
+/*   Пример, Вывод     */
+div.example, div.conclusion, div.proof{
+	border-bottom:  2px dotted #838383;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+div.cn_head, div.ex_head, div.proof_head{
+	width: 100%;
+	height: 40px;
+	border-bottom:  2px dotted #838383;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+div.smile{
+	font-size: 150%;
+	position: absolute;
+	
+/*	*width: 100px;*/
+	height: 63px;
+	padding-left: 150px;
+	padding-top: 30px;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 10% 0%;
+	left: 50%;
+	margin-left: -100px;
+}
+div.cn_head div.smile{
+	background-image: url(icons/icon9.png);
+}
+div.ex_head div.smile{
+	background-image: url(icons/icon11.png);
+}
+div.proof_head div.smile{
+	background-image: url(icons/icon4.png);
+	width: 200px;
+}
+/*   "конец" Пример, Вывод     */
+ol, ul{
+	
+}
+
+li {
+    line-height: 145%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+   /*margin-left: 114px;*/
+   /*padding-left: 15px;*/
+   /*padding-right: 135px;*/
+	/*list-style-image: url(li.png);*/
+	
+}
+
+li p{
+	text-indent: 0px;
+}
+.italic_ol li{
+	font-family: times new roman;
+	font-size: 113%;
+	font-style: italic;
+}
+/*Списки со скобкой*/
+ol.num_brackets, ol.cyrillic {
+    list-style-type: none; /* Убираем исходные маркеры */
+    counter-reset:  item; /* Обнуляем счетчик списка */
+   }
+
+ol.num_brackets > li:before{
+  content: counter(item) ') '; /* Добавляем к числам скобку */
+  counter-increment: item; /* Задаём имя счетчика */
+}
+/**/
+ol.num_brackets li{
+    list-style-image: none !important; 
+	/*margin-left: 80px;*/
+}
+div.footnote p{
+	font-size: 91%;
+}
+div.definition i{
+	font-size: 100%;
+}
+div.plan{
+	font-style: italic;
+}
+div.switcher{
+	height: 60px;
+	width: 100%;
+	font-weight: bold;
+}
+div.switcher a{
+	text-decoration: none;
+	color: #3399CC;
+	border-bottom: 1px dashed #3399CC;
+}
+div.link_box{
+	height: 40px;
+	margin-right: 15px;
+	float: left;
+}
+
+/*-----*/
+ol.inner { counter-reset: list1; list-style-type: none; } /*Инициируем счетчик */
+ol.inner li:before {
+ counter-increment: list1; /* Увеличиваем значение счетчика */
+ content: counter(list1) ". "; /* Выводим значение */
+}
+ol.inner ol.inner { counter-reset: list2; } /* Инициируем счетчик вложенного списка */
+ol.inner ol.inner li:before {
+ counter-increment: list2; /* Увеличиваем значение счетчика */
+ content: counter(list1) "." counter(list2) ". "; /* Выводим значение типа 2.1, 2.2,... */
+}
+span.source { font-family: Courier; }
+
+.italic_ol li{
+	font-family: times new roman;
+	font-size: 113%;
+	font-style: italic;
+}
+div.footnote p{
+	font-size: 91%;
+}
+div.definition i{
+	font-size: 100%;
+}
+div.plan{
+	font-style: italic;
+}
+span.textnormal
+{
+    font-style: normal;
+    text-decoration: none;
+}
+hr{
+	border: none;
+	border-bottom: 1px solid #cde7fa;
+}
+
+div.attention div p, div.definition div p {
+	margin-top: 0;
+	/*margin-bottom: 0;*/
+}
